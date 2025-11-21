@@ -1,18 +1,18 @@
-🐱Praktikum Basis Data — README
+🐹Praktikum Basis Data — README
 
 Repositori ini berisi dokumentasi dan kumpulan link materi praktikum yang disusun menggunakan Google Colab, serta beberapa tools pendukung seperti VS Code dan Laragon untuk proses pengembangan dan pengujian database.
 
 
 ---
 
-🌱 Pendahuluan
+🪼 Pendahuluan
 
 Dokumentasi ini dibuat untuk memudahkan proses pembelajaran mata kuliah Praktikum Basis Data, mulai dari pengenalan konsep dasar hingga implementasi menggunakan MySQL. Setiap pertemuan dilengkapi dengan link menuju notebook Google Colab yang berisi penjelasan lengkap materi.
 
 
 ---
 
-🛠️ Tools yang Digunakan
+🐡 Tools yang Digunakan
 
 Visual Studio Code (VS Code)
 
@@ -26,7 +26,7 @@ GitHub (Dokumentasi & repository)
 
 ---
 
-📄 Table of Contents
+🦈 Table of Contents
 
 No	Bagian	Deskripsi
 
