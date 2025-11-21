@@ -30,9 +30,7 @@ GitHub (Dokumentasi & repository)
 
 No	Bagian	Deskripsi
 
-| No | Bagian      | Deskripsi |
-|----|-------------|-----------|
-| 1  | Pertemuan 1 | Penjelasan Bab 1 — ERD (https://colab.research.google.com/drive/1JSkSRAK804E_whadEMHiTQT8QJQdLFVo?usp=sharing) |
-| 2  | Pertemuan 2 | Penjelasan Bab 2 — Pengantar Basis Data & DDL (https://colab.research.google.com/drive/1rIFjglPh75mh6ja0YpBwKnYMKqxZrazK?usp=sharing) |
-
-
+| No | Pertemuan   | Deskripsi                                   | Link |
+|----|-------------|-----------------------------------------------|------|
+| 1  | Pertemuan 1 | Bab 1 — ERD                                   | [Colab](https://colab.research.google.com/drive/1JSkSRAK804E_whadEMHiTQT8QJQdLFVo?usp=sharing) |
+| 2  | Pertemuan 2 | Bab 2 — Pengantar Basis Data & DDL            | [Colab](https://colab.research.google.com/drive/1rIFjglPh75mh6ja0YpBwKnYMKqxZrazK?usp=sharing) |
