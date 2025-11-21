@@ -1,219 +1,36 @@
-# PRAKTIKUM-BASIS-DATA
-📘 Modul Praktikum Basis Data
+Praktikum Basis Data — README
 
-Ringkasan Bab 1 & Bab 2
-
-
----
-
-📌 Pendahuluan
-
-Repository ini berisi rangkuman dua bab awal praktikum Basis Data, yaitu:
-
-1. Bab 1 – Konversi ERD ke Skema Relasi
-
-
-2. Bab 2 – Pengantar Basis Data & DDL
-
-
-
-Rangkuman dibuat agar mudah dipahami oleh pemula yang baru belajar database.
+Repositori ini berisi dokumentasi dan kumpulan link materi praktikum yang disusun menggunakan Google Colab, serta beberapa tools pendukung seperti VS Code dan Laragon untuk proses pengembangan dan pengujian database.
 
 
 ---
 
-🧩 BAB 1 – Konversi ER Diagram ke Skema Relasi
+🌱 Pendahuluan
 
-Bab ini menjelaskan bagaimana sebuah ERD menggambarkan struktur data dan bagaimana diagram tersebut diubah menjadi tabel relasional di MySQL.
-
-
----
-
-🔍 Apa itu Basis Data?
-
-Basis data adalah kumpulan data terorganisasi yang disimpan dalam tabel berisi kolom (field) dan baris (record).
-
-Contoh pada sistem apotek:
-
-tabel pasien
-
-tabel obat
-
-tabel pembayaran
-
-
-Tujuan: data mudah dicari, diolah, dan dipertahankan konsistensinya.
+Dokumentasi ini dibuat untuk memudahkan proses pembelajaran mata kuliah Praktikum Basis Data, mulai dari pengenalan konsep dasar hingga implementasi menggunakan MySQL. Setiap pertemuan dilengkapi dengan link menuju notebook Google Colab yang berisi penjelasan lengkap materi.
 
 
 ---
 
-🔍 Apa itu ERD?
+🛠️ Tools yang Digunakan
 
-ERD (Entity Relationship Diagram) adalah diagram yang menggambarkan struktur data, berisi:
+Visual Studio Code (VS Code)
 
-Entitas (objek)
+Laragon (MySQL Server)
 
-Atribut (informasi)
+Google Colab (Penjelasan materi per pertemuan)
 
-Relasi antar entitas
+GitHub (Dokumentasi & repository)
 
 
 
 ---
 
-🔍 Komponen ERD (Singkat)
+📄 Table of Contents
 
-Entitas → objek seperti Pasien, Pegawai, Obat
+No	Bagian	Deskripsi
 
-Atribut → informasi entitas (Nama, Alamat, dll)
+1	Pertemuan 1	Penjelasan Bab 1 — ERD (di Colab)
+2	Pertemuan 2	Penjelasan Bab 2 — Pengantar Basis Data & DDL (di Colab)
 
-Primary Key (PK) → pembeda unik (NIM, KodeObat, IDPegawai)
 
-Relasi → hubungan antar entitas (Pasien–Resep, Pegawai–Pembayaran)
-
-Kardinalitas → bentuk hubungan (1:1, 1:N, N:M)
-
-
-
----
-
-🔄 Konversi ERD → Tabel
-
-1. Strong Entity → Tabel
-
-
-2. Composite Attribute → Dipecah (Alamat → Jalan, Kota, Provinsi)
-
-
-3. Multivalue Attribute → Tabel Baru (Pasien punya banyak nomor telepon)
-
-
-4. Weak Entity → PK Gabungan
-
-
-5. Relasi 1:1 → Tambah FK
-
-
-6. Relasi 1:N → FK di sisi N
-
-
-7. Relasi N:M → Tabel Relasi Baru
-Contoh: Resep — DetailObat — Obat
-
-
-
-
----
-
-🧩 BAB 2 – Pengantar Basis Data & DDL
-
-Bab ini mengenalkan dasar-dasar database, DBMS, MySQL, dan perintah dasar kategori DDL.
-
-
----
-
-🔍 Apa itu DBMS?
-
-DBMS (Database Management System) adalah software untuk mengelola basis data.
-
-Contoh DBMS:
-
-MySQL / MariaDB
-
-PostgreSQL
-
-SQL Server
-
-Oracle
-
-
-Fungsi DBMS: menyimpan data, mengakses data, menghubungkan tabel, dan mencegah duplikasi.
-
-
----
-
-🔍 Apa itu MySQL?
-
-MySQL adalah DBMS open-source yang:
-
-cepat
-
-stabil
-
-gratis
-
-mudah digunakan
-
-banyak dipakai dalam aplikasi web
-
-
-Di XAMPP modern, MySQL digantikan MariaDB, namun perintah SQL tetap sama.
-
-
----
-
-🔍 Mengakses MySQL via Command Line
-
-Masuk MySQL:
-
-mysql -u root -p
-
-Keluar MySQL:
-
-\q
-
-Lokasi penyimpanan database:
-
-Windows → C:\xampp\mysql\data\
-
-Linux → /opt/lampp/var/mysql/
-
-
-
----
-
-🔍 Apa itu DDL?
-
-DDL (Data Definition Language) adalah perintah SQL untuk mengatur struktur database, seperti:
-
-membuat database
-
-menghapus database
-
-memilih database
-
-
-
----
-
-🧱 Perintah DDL Dasar
-
-1️⃣ Membuat database
-
-CREATE DATABASE nama_database;
-
-2️⃣ Melihat semua database
-
-SHOW DATABASES;
-
-3️⃣ Mengaktifkan database
-
-USE nama_database;
-
-4️⃣ Menghapus database
-
-DROP DATABASE nama_database;
-
-
----
-
-📅 Rangkuman Pertemuan
-
-Berikut tabel markdown yang rapi untuk README:
-
-| Pertemuan | Materi                 | Penjelasan Singkat                              |
-|-----------|-------------------------|--------------------------------------------------|
-| 1         | Pengenalan Basis Data   | Apa itu database, tabel, record, dan DBMS       |
-| 2         | ERD & Komponen          | Entitas, atribut, PK, relasi, dan kardinalitas  |
-| 3         | Konversi ERD → Tabel    | Aturan strong entity, weak entity, 1:N, N:M     |
-| 4         | DDL MySQL               | CREATE, SHOW, USE, DROP untuk manajemen database|
