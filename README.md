@@ -30,7 +30,9 @@ GitHub (Dokumentasi & repository)
 
 No	Bagian	Deskripsi
 
-1	Pertemuan 1	Penjelasan Bab 1 — ERD (di Colab)
-2	Pertemuan 2	Penjelasan Bab 2 — Pengantar Basis Data & DDL (di Colab)
+| No | Bagian      | Deskripsi |
+|----|-------------|-----------|
+| 1  | Pertemuan 1 | Penjelasan Bab 1 — ERD (di Colab) |
+| 2  | Pertemuan 2 | Penjelasan Bab 2 — Pengantar Basis Data & DDL (di Colab) |
 
 
