@@ -32,7 +32,7 @@ No	Bagian	Deskripsi
 
 | No | Bagian      | Deskripsi |
 |----|-------------|-----------|
-| 1  | Pertemuan 1 | Penjelasan Bab 1 — ERD (di Colab) |
-| 2  | Pertemuan 2 | Penjelasan Bab 2 — Pengantar Basis Data & DDL (di Colab) |
+| 1  | Pertemuan 1 | Penjelasan Bab 1 — ERD (https://colab.research.google.com/drive/1JSkSRAK804E_whadEMHiTQT8QJQdLFVo?usp=sharing) |
+| 2  | Pertemuan 2 | Penjelasan Bab 2 — Pengantar Basis Data & DDL (https://colab.research.google.com/drive/1rIFjglPh75mh6ja0YpBwKnYMKqxZrazK?usp=sharing) |
 
 
